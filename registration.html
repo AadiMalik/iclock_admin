@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body {
+  background-image: url("background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.registration-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+	</style>
+</head>
+<body style="background-image: url('your-background-image-url');">
+	<div class="registration-form">
+	  <h2>Register for our Service</h2>
+	  <form id="registration-form" action="mailto:team@idamru.com" method="POST" enctype="text/plain">
+	    <div class="form-group">
+	      <label for="company-name">Company Name:</label>
+	      <input type="text" id="company-name" name="company-name" required>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="contact-name">Contact Name:</label>
+	      <input type="text" id="contact-name" name="contact-name" required>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="contact-tel">Contact Tel:</label>
+	      <input type="tel" id="contact-tel" name="contact-tel" required>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="contact-email">Contact Email:</label>
+	      <input type="email" id="contact-email" name="contact-email" required>
+	      <input type="hidden" id="sender-email" name="sender-email">
+	    </div>
+
+	    <div class="form-group">
+	      <label for="subscription-type">Subscription Type:</label>
+	      <select id="subscription-type" name="subscription-type">
+	        <option value="trial">Trial</option>
+	        <option value="buy">Buy Subscription</option>
+	      </select>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="number-of-employees">Number of Employees:</label>
+	      <input type="number" id="number-of-employees" name="number-of-employees" required>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="remarks">Remarks:</label>
+	      <textarea id="remarks" name="remarks" rows="4" cols="50"></textarea>
+	    </div>
+
+	    <div class="form-group">
+	      <input type="submit" value="Submit">
+	    </div>
+	  </form>
+	</div>
+
+	<script>
+	  document.getElementById("registration-form").addEventListener("submit", function(event) {
+	    event.preventDefault();
+	    var senderEmail = document.getElementById("contact-email").value;
+	    document.getElementById("sender-email").value = senderEmail;
+	    this.submit();
+	    sendNotificationEmail(senderEmail);
+	  });
+
+	  function sendNotificationEmail(senderEmail) {
+	    var emailSubject = "Registration Received";
+	    var emailBody = "Dear Sender,\n\nGreetings from IDA Mauritius, thank you for registering. Our team confirm receipt of your request and will get back to you in no time. You may give us a call on Tel (230) 215-2977 if you need an urgent assistance or drop us an email at team@idamru.com. Looking forward to getting you onboard.";
+	    var emailLink = "mailto:" + senderEmail + "?subject=" + emailSubject + "&body=" + encodeURIComponent(emailBody);
+	    window.location.href = emailLink;
+	  }
+	</script>
+</body>
+</html>

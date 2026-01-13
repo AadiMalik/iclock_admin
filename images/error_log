@@ -1,0 +1,434 @@
+[25-Aug-2020 17:28:31 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 2
+[25-Aug-2020 17:28:31 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 2
+[25-Aug-2020 17:28:31 UTC] PHP Notice:  Undefined variable: conn in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 6
+[25-Aug-2020 17:28:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/islandmru17/public_html/iclock.idamru.com/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 6
+[26-Aug-2020 04:27:50 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 2
+[26-Aug-2020 04:27:50 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 2
+[26-Aug-2020 04:27:50 UTC] PHP Notice:  Undefined variable: conn in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 6
+[26-Aug-2020 04:27:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/islandmru17/public_html/iclock.idamru.com/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/islandmru17/public_html/iclock.idamru.com/images/index.php on line 6
+[11-Jun-2021 09:45:01 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:45:01 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:45:01 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:45:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[11-Jun-2021 09:47:57 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:47:57 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:47:57 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:47:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[11-Jun-2021 09:50:54 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:50:54 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:50:54 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:50:54 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[11-Jun-2021 09:56:51 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:56:51 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:56:51 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[11-Jun-2021 09:56:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[12-Jun-2021 14:32:33 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:32:33 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:32:33 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:32:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[12-Jun-2021 14:32:44 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:32:44 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:32:44 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:32:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[12-Jun-2021 14:34:16 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:16 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:16 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[12-Jun-2021 14:34:50 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:50 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:50 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[12-Jun-2021 14:34:56 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:56 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:56 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:34:56 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[12-Jun-2021 14:44:35 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:44:35 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:44:35 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[12-Jun-2021 14:44:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[16-Jun-2021 23:46:59 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:46:59 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:46:59 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:46:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[16-Jun-2021 23:47:00 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:47:00 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:47:00 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:47:00 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[16-Jun-2021 23:47:12 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:47:12 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:47:12 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[16-Jun-2021 23:47:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[17-Jun-2021 13:49:04 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:04 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:04 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:04 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[17-Jun-2021 13:49:07 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:07 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:07 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[17-Jun-2021 13:49:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:26 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[17-Jun-2021 13:49:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:26 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[17-Jun-2021 13:49:46 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:46 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:46 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[17-Jun-2021 13:49:47 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:47 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:47 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[17-Jun-2021 13:49:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[19-Jun-2021 04:09:30 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:09:30 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:09:30 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:09:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[19-Jun-2021 04:11:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:11:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:11:26 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:11:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[19-Jun-2021 04:11:27 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:11:27 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:11:27 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[19-Jun-2021 04:11:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[20-Jun-2021 21:41:28 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 21:41:28 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 21:41:28 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 21:41:28 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[20-Jun-2021 21:41:44 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 21:41:44 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 21:41:44 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 21:41:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[20-Jun-2021 23:56:22 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 23:56:22 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 23:56:22 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[20-Jun-2021 23:56:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[24-Jun-2021 23:09:29 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[24-Jun-2021 23:09:29 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[24-Jun-2021 23:09:29 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[24-Jun-2021 23:09:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[24-Jun-2021 23:09:33 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[24-Jun-2021 23:09:33 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[24-Jun-2021 23:09:33 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[24-Jun-2021 23:09:33 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[06-Jul-2021 05:24:13 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:24:13 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:24:13 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:24:13 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[06-Jul-2021 05:24:14 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:24:14 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:24:14 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:24:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[06-Jul-2021 05:27:20 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:27:20 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:27:20 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[06-Jul-2021 05:27:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[08-Jul-2021 08:36:40 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[08-Jul-2021 08:36:40 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[08-Jul-2021 08:36:40 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[08-Jul-2021 08:36:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[21-Jul-2021 06:31:49 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:31:49 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:31:49 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:31:49 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[21-Jul-2021 06:32:05 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:32:05 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:32:05 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:32:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[21-Jul-2021 06:32:05 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:32:05 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:32:05 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[21-Jul-2021 06:32:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:33:43 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:43 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:43 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:33:57 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:57 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:57 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:33:57 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:57 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:57 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:33:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:34:13 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:34:13 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:34:13 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:34:13 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:34:14 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:34:14 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:34:14 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:34:14 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:35:32 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:32 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:32 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:35:38 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:38 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:38 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:35:41 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:41 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:41 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:35:49 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:49 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:49 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:49 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:35:52 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:52 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:52 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:35:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:37:09 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:09 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:09 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:37:16 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:16 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:16 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:37:19 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:19 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:19 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:37:19 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:38:31 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:38:31 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:38:31 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:38:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:38:34 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:38:34 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:38:34 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:38:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:42:12 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:12 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:12 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:42:17 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:17 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:17 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[29-Jul-2021 23:42:34 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:34 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:34 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[29-Jul-2021 23:42:34 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[30-Jul-2021 00:10:41 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:10:41 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:10:41 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:10:41 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[30-Jul-2021 00:11:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:11:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:11:26 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:11:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[30-Jul-2021 00:11:27 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:11:27 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:11:27 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[30-Jul-2021 00:11:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[07-Sep-2021 22:04:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[07-Sep-2021 22:04:26 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[07-Sep-2021 22:04:26 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[07-Sep-2021 22:04:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[27-Jan-2022 13:39:04 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 13:39:04 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 13:39:04 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 13:39:04 America/Boise] PHP Fatal error:  Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[27-Jan-2022 15:10:05 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 15:10:05 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 15:10:05 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 15:10:05 America/Boise] PHP Fatal error:  Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[27-Jan-2022 18:05:23 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 18:05:23 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 18:05:23 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 18:05:23 America/Boise] PHP Fatal error:  Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[27-Jan-2022 21:04:44 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 21:04:44 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 21:04:44 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[27-Jan-2022 21:04:44 America/Boise] PHP Fatal error:  Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[28-Jan-2022 14:16:50 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 14:16:50 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 14:16:50 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 14:16:50 America/Boise] PHP Fatal error:  Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[28-Jan-2022 14:49:11 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 14:49:11 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 14:49:11 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 14:49:11 America/Boise] PHP Fatal error:  Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php on line 6
+[28-Jan-2022 16:41:12 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 16:41:12 America/Boise] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 16:41:12 America/Boise] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/idamrune/public_html/iclock/images/index.php on line 2
+[28-Jan-2022 16:41:12 America/Boise] PHP Fatal error:  Call to a member function query() on null in /home4/idamrune/public_html/iclock/images/index.php on line 6

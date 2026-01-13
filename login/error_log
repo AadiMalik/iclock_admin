@@ -1,0 +1,16 @@
+[14-Aug-2023 17:26:20 UTC] PHP Warning:  include(connect.php): Failed to open stream: No such file or directory in /home/iclockmu/public_html/admin/login/index.php on line 2
+[14-Aug-2023 17:26:20 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/iclockmu/public_html/admin/login/index.php on line 2
+[14-Aug-2023 17:26:20 UTC] PHP Warning:  Undefined variable $conn in /home/iclockmu/public_html/admin/login/index.php on line 75
+[14-Aug-2023 17:26:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/iclockmu/public_html/admin/login/index.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/iclockmu/public_html/admin/login/index.php on line 75
+[14-Aug-2023 17:33:26 UTC] PHP Parse error:  Unclosed '{' on line 15 in /home/iclockmu/public_html/admin/login/index.php on line 197
+[18-Aug-2023 10:45:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home/iclockmu/public_html/admin/login/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/iclockmu/public_html/admin/login/index.php on line 31
+[23-Dec-2025 07:24:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home/fillao/iclock.mu/admin/login/index.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/fillao/iclock.mu/admin/login/index.php on line 31

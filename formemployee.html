@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Application Form</title>
+  <style>
+    body {
+      background-image: url('https://example.com/background-image.jpg');
+      background-size: cover;
+    }
+
+    form {
+      margin: auto;
+      max-width: 700px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    label {
+      flex-basis: 40%;
+    }
+
+    input, select {
+      flex-basis: 55%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Employee Application Form</h2>
+
+  <form action="mailto:team@idamru.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="surname">Surname:</label>
+    <input type="text" id="surname" name="surname" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="telephone">Telephone Number:</label>
+    <input type="tel" id="telephone" name="telephone" required>
+
+    <label for="idno">ID No:</label>
+    <input type="text" id="idno" name="idno" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="basicpay">Basic Pay:</label>
+    <input type="number" id="basicpay" name="basicpay" required>
+
+    <label for="traveltype">Travelling per day or per month?</label>
+    <select id="traveltype" name="traveltype" onchange="showTravelField()" required>
+      <option value="">Please select one</option>
+      <option value="perday">Per Day</option>
+      <option value="permonth">Per Month</option>
+    </select>
+
+    <div id="travelday" style="display:none">
+      <label for="travellingday">Travelling Day:</label>
+      <input type="number" id="travellingday" name="travellingday">
+    </div>
+
+    <div id="travelmonth" style="display:none">
+      <label for="travellingmonth">Travelling Month:</label>
+      <input type="number" id="travellingmonth" name="travellingmonth">
+    </div>
+
+    <label for="monthallowance">Month Allowance:</label>
+    <input type="number" id="monthallowance" name="monthallowance" required>
+
+    <label for="bankname">Bank Name:</label>
+    <input type="text" id="bankname" name="bankname" required>
+
+  <label for="accountnumber">Bank Account Number:</label>
+  <input type="text" id="accountnumber" name="accountnumber" required><br><br>
+
+  <label for="position">Position:</label>
+  <input type="text" id="position" name="position" required><br><br>
+
+  <label for="idcard">Upload ID Card:</label>
+  <input type="file" id="idcard" name="idcard" accept="image/*" required><br><br>
+
+  <label for="addressproof">Upload Proof of Address:</label>
+  <input type="file" id="addressproof" name="addressproof" accept="image/*" required><br><br>
+
+  <label for="remarks">Remarks:</label>
+  <textarea id="remarks" name="remarks"></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<script>
+  const travelType = document.getElementById("traveltype");
+  const travelDay = document.getElementById("travelday");
+  const travelMonth = document.getElementById("travelmonth");
+
+  travelType.addEventListener("change", function() {
+    if (travelType.value === "perday") {
+      travelDay.style.display = "block";
+      travelMonth.style.display = "none";
+    } else if (travelType.value === "permonth") {
+      travelDay.style.display = "none";
+      travelMonth.style.display = "block";
+    } else {
+      travelDay.style.display = "none";
+      travelMonth.style.display = "none";
+    }
+  });
+</script>
+

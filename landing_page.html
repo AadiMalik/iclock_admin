@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How to use ICLOCK System</title>
+    <style>
+        body {
+            background-color: #87CEFA;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        .video-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            justify-items: center;
+            margin-top: 30px;
+        }
+
+        .video-wrapper {
+            width: 100%;
+            max-width: 500px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .video-wrapper h2 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .video-wrapper video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .video-wrapper button {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .video-wrapper button:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #000;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to use ICLOCK System</h1>
+
+    <div class="video-container">
+        <div class="video-wrapper">
+            <h3>How to time in on web on any device</h3>
+            <video id="video1" src="video/IClock Web Access.mp4"></video>
+            <button onclick="togglePlayPause('video1')">Play</button>
+        </div>
+
+        <div class="video-wrapper">
+            <h3>Clock In and Clock Out</h3>
+            <video id="video2" src="VIDEO_PATH2.mp4"></video>
+            <button onclick="togglePlayPause('video2')">Play</button>
+        </div>
+
+        <div class="video-wrapper">
+            <h3>Leave application</h3>
+            <video id="video3" src="VIDEO_PATH3.mp4"></video>
+            <button onclick="togglePlayPause('video3')">Play</button>
+        </div>
+
+        <div class="video-wrapper">
+            <h3>Employee checking attendance & leave application</h3>
+            <video id="video4" src="VIDEO_PATH4.mp4"></video>
+            <button onclick="togglePlayPause('video4')">Play</button>
+        </div>  
+    </div>
+
+    <footer>Powered by IDA Mauritius</footer>
+
+    <script>
+        function togglePlayPause(videoId) {
+            var video = document.getElementById(videoId);
+            var button = video.nextSibling.nextSibling;  // Changed this line as well
+
+            if (video.paused) {
+                video.play();
+                button.textContent = 'Pause';
+            } else {
+                video.pause();
+                button.textContent = 'Play';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+

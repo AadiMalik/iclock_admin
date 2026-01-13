@@ -1,0 +1,114 @@
+[26-Mar-2023 16:59:23 UTC] PHP Warning:  include(admin/connect.php): Failed to open stream: No such file or directory in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 16:59:23 UTC] PHP Warning:  include(): Failed opening 'admin/connect.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 16:59:24 UTC] PHP Warning:  include(admin/connect.php): Failed to open stream: No such file or directory in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 16:59:24 UTC] PHP Warning:  include(): Failed opening 'admin/connect.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 16:59:36 UTC] PHP Warning:  include(admin/connect.php): Failed to open stream: No such file or directory in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 16:59:36 UTC] PHP Warning:  include(): Failed opening 'admin/connect.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  include(admin/connect.php): Failed to open stream: No such file or directory in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  include(): Failed opening 'admin/connect.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 2
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Undefined array key "fnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 11
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Undefined array key "lnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 12
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Undefined variable $_SESSION in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 57
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 57
+[26-Mar-2023 17:00:11 UTC] PHP Warning:  Undefined variable $conn in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 58
+[26-Mar-2023 17:00:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/iclockmu/public_html/admin/admin/reg/registerr.php:58
+Stack trace:
+#0 /home/iclockmu/public_html/admin/admin/reg/registerr.php(58): mysqli_query()
+#1 {main}
+  thrown in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 58
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Undefined array key "fnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 11
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Undefined array key "lnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 12
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[26-Mar-2023 17:29:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Undefined array key "fnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 11
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Undefined array key "lnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 12
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[26-Mar-2023 17:35:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Undefined array key "fnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 11
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Undefined array key "lnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 12
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[26-Mar-2023 17:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Undefined array key "fnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 11
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Undefined array key "lnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 12
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[29-Mar-2023 17:54:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Undefined array key "fnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 11
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Undefined array key "lnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 12
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[29-Mar-2023 19:22:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Undefined array key "fnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 11
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Undefined array key "lnm" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 12
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 26
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 27
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[04-Apr-2023 15:46:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 28
+[05-Apr-2023 18:43:59 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[05-Apr-2023 18:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[05-Apr-2023 18:43:59 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[05-Apr-2023 18:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[05-Apr-2023 18:43:59 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[05-Apr-2023 18:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[05-Apr-2023 18:43:59 UTC] PHP Warning:  Undefined array key "expiry_date" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 52
+[05-Apr-2023 19:49:51 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[05-Apr-2023 19:49:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[05-Apr-2023 19:49:51 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[05-Apr-2023 19:49:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[05-Apr-2023 19:49:51 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[05-Apr-2023 19:49:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[05-Apr-2023 19:49:51 UTC] PHP Warning:  Undefined array key "expiry_date" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 52
+[30-Apr-2023 06:51:00 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[30-Apr-2023 06:51:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[30-Apr-2023 06:51:00 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[30-Apr-2023 06:51:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[30-Apr-2023 06:51:00 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[30-Apr-2023 06:51:00 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[30-Apr-2023 06:51:00 UTC] PHP Warning:  Undefined array key "expiry_date" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 52
+[31-Aug-2023 18:38:54 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[31-Aug-2023 18:38:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[31-Aug-2023 18:38:54 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[31-Aug-2023 18:38:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[31-Aug-2023 18:38:54 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[31-Aug-2023 18:38:54 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[31-Aug-2023 18:38:54 UTC] PHP Warning:  Undefined array key "expiry_date" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 52
+[17-Nov-2023 19:45:48 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[17-Nov-2023 19:45:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[17-Nov-2023 19:45:48 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[17-Nov-2023 19:45:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[17-Nov-2023 19:45:48 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[17-Nov-2023 19:45:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[17-Nov-2023 19:45:48 UTC] PHP Warning:  Undefined array key "expiry_date" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 52
+[13-Feb-2024 17:37:30 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[13-Feb-2024 17:37:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 22
+[13-Feb-2024 17:37:30 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[13-Feb-2024 17:37:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 23
+[13-Feb-2024 17:37:30 UTC] PHP Warning:  Undefined array key "photo" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[13-Feb-2024 17:37:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 24
+[13-Feb-2024 17:37:30 UTC] PHP Warning:  Undefined array key "expiry_date" in /home/iclockmu/public_html/admin/admin/reg/registerr.php on line 52
