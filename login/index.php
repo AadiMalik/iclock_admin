@@ -28,7 +28,7 @@ if(isset($_POST['btn_login']))
     $sql1 = $conn->query("SELECT * FROM admin WHERE username='" .$unm . "' and password = '". $pass."' AND delete_status=0 AND status=0 limit 1");
     
 
-if($sql1->num_rows>0)
+if($sql1->num_rows()>0)
 {
       $row  = $sql1->fetch_array();
         if($row['expiry_date']>=date('Y-m-d'))
@@ -64,7 +64,7 @@ else
 {
  $sql2 = $conn->query("SELECT * FROM department WHERE username='" .$unm . "' and password = '". $pass."' AND delete_status=0 AND status=0 limit 1");
 
-   if($sql2->num_row>0)
+   if($sql2->num_rows()>0)
     {
       $row  =$sql2->fetch_array();
       if($row['expiry_date']>=date('Y-m-d'))
@@ -99,7 +99,7 @@ else
     else
     {
          $sql3 = $conn->query("SELECT * FROM superadmin WHERE username='" .$unm . "' and password = '". $pass."' limit 1");
-     if($sql3->num_rows>0)
+     if($sql3->num_rows()>0)
     {
         $row  = $sql3->fetch_array();
         $_SESSION["id"] = $row['id'];
