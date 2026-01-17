@@ -55,7 +55,7 @@ if (isset($_POST["update"])) {
 
         if ($leave_type != 'half_day') {
             if ($leave_type != 'Sick Leave') {
-//                $sql2 = "SELECT * FROM admin WHERE id='" . $_SESSION['id'] . "' AND name='" . $leave_type . "' AND delete_status=0";
+                //$sql2 = "SELECT * FROM admin WHERE id='" . $_SESSION['id'] . "' AND name='" . $leave_type . "' AND delete_status=0";
                 $sql2 = "SELECT * FROM admin WHERE id='" . $_SESSION['id'] . "' AND delete_status=0";
 
                 $query2 = $conn->query($sql2);

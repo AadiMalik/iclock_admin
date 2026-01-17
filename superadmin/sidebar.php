@@ -22,7 +22,12 @@
                         </li>
                         <li> <a href="manage_website.php" aria-expanded="false"><i class="fa fa-cog"></i><span class="hide-menu">Apearance Management </span></a>
                         </li>
+                        <li> <a href="subscription_list.php" aria-expanded="false"><i class="fa fa-gift"></i><span class="hide-menu"> Subscriptions</span></a>
+                        </li>
+                        <li> <a href="subscription_payments.php" aria-expanded="false"><i class="fa fa-money"></i><span class="hide-menu"> Subscription Payments</span></a>
+                        </li>
 					</ul>
+                    
                    
 
                 </nav>
