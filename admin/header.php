@@ -1,19 +1,52 @@
 <?php session_start();
 include('../connect.php');
-if(basename($_SERVER["SCRIPT_FILENAME"]) != 'register.php'){
-if(!isset($_SESSION["id"]))
-{
-    header('location:index.php');    
-}
+if (basename($_SERVER["SCRIPT_FILENAME"]) != 'register.php') {
+    if (!isset($_SESSION["id"])) {
+        header('location:index.php');
+    }
 }
 // print_r($_SESSION["id"]);
 ?>
 <?php
 
- $sql_header_logo = "select * from manage_website"; 
- $result_header_logo = $conn->query($sql_header_logo);
- $row_header_logo = mysqli_fetch_array($result_header_logo);
- ?>
+$sql_header_logo = "select * from manage_website";
+$result_header_logo = $conn->query($sql_header_logo);
+$row_header_logo = mysqli_fetch_array($result_header_logo);
+$isLoggedIn = isset($_SESSION['id']);
+$hasSubscription = false;
+$isFreePackage   = false;
+$packageName     = '';
+
+if ($isLoggedIn) {
+
+    $user_id = $_SESSION['id'];
+
+    $subSql = "
+        SELECT 
+            a.subscription_package_id,
+            sp.name,
+            sp.price
+        FROM admin a
+        LEFT JOIN subscription_packages sp 
+            ON sp.id = a.subscription_package_id
+        WHERE a.id = '$user_id'
+        LIMIT 1
+    ";
+
+    $subRes = $conn->query($subSql);
+    $subscription = mysqli_fetch_assoc($subRes);
+
+    if ($subscription && !empty($subscription['subscription_package_id'])) {
+        $hasSubscription = true;
+        $packageName = $subscription['name'];
+
+        if ((float)$subscription['price'] == 0) {
+            $isFreePackage = true;
+        }
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,11 +59,11 @@ if(!isset($_SESSION["id"]))
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title><?=$row_header_logo['title']?> </title>
+    <title><?= $row_header_logo['title'] ?> </title>
 
     <link href="../uses/css/lib/calendar2/semantic.ui.min.css" rel="stylesheet">
     <link href="../uses/css/lib/calendar2/pignose.calendar.min.css" rel="stylesheet">
-    
+
     <link href="../uses/css/lib/chartist/chartist.min.css" rel="stylesheet">
     <link href="../uses/css/lib/owl.carousel.min.css" rel="stylesheet" />
     <link href="../uses/css/lib/owl.theme.default.min.css" rel="stylesheet" />
@@ -39,18 +72,48 @@ if(!isset($_SESSION["id"]))
     <!-- Custom CSS -->
     <link href="../uses/css/helper.css" rel="stylesheet">
     <link href="../uses/css/new_style.css" rel="stylesheet">
-    
-     <link href="../uses/css/sticky.css" rel="stylesheet">
-     <link href="../uses/css/sticky_2nd.css" rel="stylesheet">
-  
-   <link rel="stylesheet" href="../uses/bower_components/bootstrap-daterangepicker/daterangepicker.css"> 
+
+    <link href="../uses/css/sticky.css" rel="stylesheet">
+    <link href="../uses/css/sticky_2nd.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../uses/bower_components/bootstrap-daterangepicker/daterangepicker.css">
     <!-- bootstrap datepicker -->
     <link rel="stylesheet" href="../uses/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
     <!-- Bootstrap time Picker -->
     <link rel="stylesheet" href="../uses/plugins/timepicker/bootstrap-timepicker.min.css">
     <link rel="stylesheet" type="text/css" href="../uses/css/lib/select2/select2.min.css">
-    
-    </head>
+    <style>
+        .alert {
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        .subscription-badge {
+            margin-left: 8px;
+            padding: 4px 10px;
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 20px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        /* FREE package */
+        .badge-free {
+            background: rgb(180, 32, 5);
+            color:#ffffff;
+            border: 1px solid rgb(180, 32, 5);
+        }
+
+        /* PAID package */
+        .badge-paid {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+    </style>
+</head>
 
 <body class="fix-header fix-sidebar">
     <!-- Preloader - style you can find in spinners.css -->
@@ -67,10 +130,11 @@ if(!isset($_SESSION["id"]))
                 <div class="navbar-header">
                     <a class="navbar-brand" href="">
                         <!-- Logo icon -->
-                        <b><img src="../images/<?php echo $row_header_logo['logo'];?>" alt="homepage" class="dark-logo" style="width: 10%;"/></b>                        <!--End Logo icon -->
-                       <!-- Logo text -->
-                        
+                        <b><img src="../images/<?php echo $row_header_logo['logo']; ?>" alt="homepage" class="dark-logo" style="width: 10%;" /></b> <!--End Logo icon -->
+                        <!-- Logo text -->
+
                     </a>
+
                 </div>
                 <!-- End Logo -->
                 <div class="navbar-collapse">
@@ -80,25 +144,30 @@ if(!isset($_SESSION["id"]))
                         <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted  " href="javascript:void(0)"><i class="mdi mdi-menu"></i></a> </li>
                         <li class="nav-item m-l-10"> <a class="nav-link sidebartoggler hidden-sm-down text-muted  " href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
                         <!-- Messages -->
-                       
-                            
-                        
+
+
+
                     </ul>
                     <!-- User profile  -->
                     <ul class="navbar-nav my-lg-0">
 
-                        
+
                         <!-- Profile -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo($_SESSION["image"]!=NULL)?'<img  width="30" src="uploaded/'.$_SESSION["image"].'"  >' :'' ;?>
-                            &nbsp;
-                            <?php echo $_SESSION["fname"]." ".$_SESSION["lname"];  ?>
-                            
+                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo ($_SESSION["image"] != NULL) ? '<img  width="30" src="uploaded/' . $_SESSION["image"] . '"  >' : ''; ?>
+                                &nbsp;
+                                <?php echo $_SESSION["fname"] . " " . $_SESSION["lname"];  ?>
+                                <?php if ($isLoggedIn && $hasSubscription) { ?>
+                                    <span class="subscription-badge 
+                        <?= ($isFreePackage) ? 'badge-free' : 'badge-paid'; ?>">
+                                        <?= htmlspecialchars($packageName); ?>
+                                    </span>
+                                <?php } ?>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
                                     <li><a href="editprofile.php?id=<?php echo $_SESSION["id"]; ?>"><i class="ti-user"></i> Profile</a></li>
-                                   
+
                                     <li><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
                                 </ul>
                             </div>
@@ -107,5 +176,25 @@ if(!isset($_SESSION["id"]))
                 </div>
             </nav>
         </div>
-  
-        
+        <?php if ($isLoggedIn) { ?>
+            <?php if (!$hasSubscription) { ?>
+                <!-- NO SUBSCRIPTION -->
+                <div class="alert alert-danger text-center mb-0">
+                    <strong>⚠ You are not using any subscription.</strong>
+                    Please subscribe to continue using full features.
+                    <a href="subscriptions.php" class="btn btn-sm btn-light ml-2">
+                        Subscribe Now
+                    </a>
+                </div>
+
+            <?php } elseif ($isFreePackage) { ?>
+                <!-- FREE PACKAGE -->
+                <div class="alert alert-danger text-center mb-0">
+                    <strong>ℹ You are currently using the FREE package.</strong>
+                    Upgrade your plan to unlock more features.
+                    <a href="subscriptions.php" class="btn btn-sm btn-primary ml-2">
+                        Upgrade Now
+                    </a>
+                </div>
+        <?php }
+        } ?>

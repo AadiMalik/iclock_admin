@@ -8,9 +8,9 @@ $password   = "xs3apO@%DB@2020";
 $dbname     = "iclock_mikado";
 */
 $servername = "localhost";
-$username   = "fillao_iclock";
-$password   = "l+p@}T%i75?_";
-$dbname     = "fillao_iclock";
+$username   = "codepulstore_iclock";
+$password   = "codepulstore_iclock";
+$dbname     = "codepulstore_iclock";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

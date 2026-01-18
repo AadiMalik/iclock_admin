@@ -5,32 +5,6 @@ include("sidebar.php");
 // 	  print_r($_SESSION);
 ?>
 
-<?php
-// Logged in admin ki active subscription
-$subSql = "
-SELECT 
-    a.subscription_expiry_date,
-    a.subscription_package_id,
-    p.name AS package_name,
-    p.subscription_type,
-    p.price
-FROM admin a
-JOIN subscription_packages p ON p.id = a.subscription_package_id
-WHERE a.id = '".$_SESSION['id']."'
-AND a.subscription_expiry_date >= CURDATE()
-LIMIT 1
-";
-$subQuery = $conn->query($subSql);
-$subscription = $subQuery->fetch_assoc();
-
-$remainingDays = 0;
-if ($subscription) {
-    $today = new DateTime();
-    $end   = new DateTime($subscription['subscription_expiry_date']);
-    $remainingDays = $today->diff($end)->days;
-}
-?>
-
 <!-- Page wrapper  -->
 <div class="page-wrapper">
     <!-- Bread crumb -->
@@ -135,71 +109,6 @@ if ($subscription) {
                 </a>
             </div>
 
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card" style="border-left:5px solid #17a2b8;">
-                    <div class="card-body">
-                        <h4 class="card-title">
-                            <i class="fa fa-credit-card"></i> Subscription Details
-                        </h4>
-
-                        <?php if ($subscription) { ?>
-                            <div class="row text-center">
-
-                                <div class="col-md-3">
-                                    <h5 class="text-muted">Package</h5>
-                                    <h3><?= $subscription['package_name']; ?></h3>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <h5 class="text-muted">Type</h5>
-                                    <span class="badge bg-info">
-                                        <?= ucfirst($subscription['subscription_type']); ?>
-                                    </span>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <h5 class="text-muted">Expiry Date</h5>
-                                    <h4><?= date('d M Y', strtotime($subscription['subscription_expiry_date'])); ?></h4>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <h5 class="text-muted">Remaining Days</h5>
-                                    <h3 class="<?= ($remainingDays <= 5) ? 'text-danger' : 'text-success'; ?>">
-                                        <?= $remainingDays; ?>
-                                    </h3>
-                                </div>
-
-                            </div>
-
-                            <?php if ($remainingDays <= 5) { ?>
-                                <hr>
-                                <div class="alert alert-warning text-center">
-                                    <strong>⚠ Your subscription is about to expire!</strong><br>
-                                    Please renew to continue using services.
-                                    <br><br>
-                                    <a href="subscriptions.php" class="btn btn-sm btn-warning">
-                                        Renew Now
-                                    </a>
-                                </div>
-                            <?php } ?>
-
-                        <?php } else { ?>
-                            <div class="alert alert-danger text-center">
-                                <strong>No active subscription found!</strong><br>
-                                Please choose a package to continue.
-                                <br><br>
-                                <a href="subscriptions.php" class="btn btn-danger btn-sm">
-                                    View Packages
-                                </a>
-                            </div>
-                        <?php } ?>
-
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="row">
             <div class="col-lg-6">

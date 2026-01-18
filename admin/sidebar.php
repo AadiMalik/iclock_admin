@@ -29,12 +29,6 @@
             }
         }
 
-        /* 🚨 force redirect if no subscription */
-        $currentPage = basename($_SERVER['PHP_SELF']);
-        if (!$hasSubscription && $currentPage != 'subscriptions.php') {
-            header("Location: subscriptions.php");
-            exit;
-        }
         ?>
         <?php if (!$hasSubscription) { ?>
 
